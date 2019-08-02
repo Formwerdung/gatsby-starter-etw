@@ -1,5 +1,10 @@
 import * as React from 'react'
 import { css } from '@emotion/core'
 import tw from 'tailwind.macro'
+import Layout from '../components/layout';
 
-export default () => <div css={css(tw`text-red-500`)}>Hello world!</div>
+export default () => (
+    <Layout>
+        <div css={css(tw`text-red-500`)}>Hello world!</div>
+    </Layout>
+)
