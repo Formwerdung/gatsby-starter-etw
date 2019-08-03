@@ -5,7 +5,7 @@
 Content is retrieved from a WordPress instance. To successfully start a dev server, you should copy yourself an env file with 
 `cp env.example .env` and enter the url of a WordPress installation with a publicly queryable REST-API.
 
-Gatsby-starter-etw uses TypeScript.
+Gatsby-starter-etw uses TypeScript with the default config of create-react-app. 
 
 Install this starter (assuming Gatsby is installed) by running from your CLI:
 ```
