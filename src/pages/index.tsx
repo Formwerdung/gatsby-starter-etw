@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { css } from '@emotion/core'
 import tw from 'tailwind.macro'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 
 export default () => (
   <Layout>
